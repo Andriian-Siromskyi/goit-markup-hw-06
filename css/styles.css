@@ -241,6 +241,10 @@ img {
   margin-bottom: 72px;
 }
 
+.team-container {
+  padding: 32px 0;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -253,7 +257,6 @@ img {
 }
 
 .team-images {
-  margin-bottom: 32px;
 }
 
 .team-title-list {
