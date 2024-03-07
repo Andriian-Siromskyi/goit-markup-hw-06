@@ -174,8 +174,7 @@ a {
 
 .hero {
   background: #2e2f42;
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .hero-wrap {
@@ -235,7 +234,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -246,6 +245,7 @@ a {
 .team-list-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .team-images {
