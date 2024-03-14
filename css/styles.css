@@ -162,6 +162,10 @@ img {
   padding-bottom: 188px;
 }
 
+.herosize {
+  max-width: 1440px;
+}
+
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
