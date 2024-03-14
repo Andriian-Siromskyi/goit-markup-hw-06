@@ -155,15 +155,12 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/hero-image.jpg);
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
-}
-
-.herosize {
-  max-width: 1440px;
 }
 
 .hero-title {
@@ -400,6 +397,7 @@ img {
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover {
