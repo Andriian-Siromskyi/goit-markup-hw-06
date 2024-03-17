@@ -545,4 +545,72 @@ img {
   fill: #f4f4fd;
 }
 
+.subcribe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.subscribe-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.email-form {
+  display: flex;
+  gap: 24px;
+}
+.email-form-list {
+}
+
+.email-input {
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #fff;
+}
+
+.button-subscribe {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  background: #4d5ae5;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+
+.fotter-button-icon {
+  margin-left: 16px;
+  fill: #f4f4fd;
+}
+
 /*======================================*/
