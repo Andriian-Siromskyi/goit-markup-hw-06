@@ -546,10 +546,13 @@ img {
 }
 
 .subcribe-container {
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: baseline;
   flex-direction: row;
+  width: 453px;
+  height: 80px;
+  margin: 0 auto;
+  margin-left: 80px;
   gap: 16px;
 }
 
@@ -566,6 +569,7 @@ img {
 
 .email-form {
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 .email-form-list {
