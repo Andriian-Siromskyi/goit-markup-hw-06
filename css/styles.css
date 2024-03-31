@@ -81,6 +81,13 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 17px 0;
+}
+
+@media screen and (min-width: 768px){
+  .header-logo{
+    margin-right: 120px;
+  }
 }
 
 .part-logo {
@@ -94,11 +101,18 @@ img {
 }
 
 .header-list {
-  display: flex;
-  gap: 40px;
+  /* display: flex;
+  gap: 40px; */
+  display: none;
 }
 
-.header-list-item {
+@media screen and (min-width: 768px){
+   .header-list{
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-list-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -130,6 +144,7 @@ img {
   height: 4px;
   width: 100%;
 }
+}
 
 .address {
   font-style: normal;
@@ -137,17 +152,22 @@ img {
 }
 
 .address-list {
-  display: flex;
-  gap: 40px;
+  display: none;
 }
 
-.address-menu {
+@media screen and (min-width: 768px){
+  .address-list{
+    display: block;
+  }
+  .address-menu {
   font-family: "Roboto", sans-serif;
 
   font-weight: 400;
-  font-size: 16px;
+  /* font-size: 16px; */
+   font-size: 12px;
 
-  line-height: 1.5;
+  /* line-height: 1.5; */
+  line-height: 1.16;
   letter-spacing: 0.02em;
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -157,6 +177,42 @@ img {
 .address-menu:focus {
   color: #404bbf;
 }
+}
+
+@media screen and (min-width: 1158px){
+  .header-logo{
+    margin-right: 72px;
+  }
+
+.address-list{
+  display: flex;
+flex-direction: row;
+gap: 40px;
+}
+
+.header-list-item{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+}
+
+
+
+.header-menu-button{
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  line-height: 0;
+  border: none;
+}
+
+@media screen and (min-width: 768px){
+  .header-menu-button{
+  display: none;
+}
+}
+
 
 /*======================================*/
 
