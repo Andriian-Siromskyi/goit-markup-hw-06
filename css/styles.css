@@ -151,6 +151,15 @@ img {
   margin-left: auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px){
+  .address-menu-item{
+    margin-bottom: 12px;
+
+}
+
+
+}
+
 .address-list {
   display: none;
 }
@@ -188,6 +197,10 @@ img {
   display: flex;
 flex-direction: row;
 gap: 40px;
+}
+
+.address-menu{
+  font-size: 16px;
 }
 
 .header-list-item{
@@ -657,11 +670,11 @@ gap: 64px 24px;
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
 .team-list-item{
 width: calc((100% - 24px) / 2);
 }
-}
+} */
 
 @media screen and (min-width: 1158px){
 .team-list-item {
@@ -952,9 +965,9 @@ width: calc((100% - 48px) / 3);
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 288px;
-  height: 136px;
-  margin: 0 auto;
+  /* width: 288px;
+  height: 136px; */
+  /* margin: 0 auto; */
   gap: 16px;
 }
 
@@ -1021,7 +1034,7 @@ width: calc((100% - 48px) / 3);
   fill: #f4f4fd;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1157px){
   
  
   
@@ -1030,7 +1043,8 @@ width: calc((100% - 48px) / 3);
   flex-direction: row;
   flex-wrap: wrap;
   align-items: baseline;
-  margin-left: 108px;
+  max-width: 530px;
+  /* margin-left: 108px; */
 }
 
 .footer-logotype-container {
@@ -1047,8 +1061,8 @@ width: calc((100% - 48px) / 3);
 .subcribe-container {
   
   align-items: baseline;
-  width: 453px;
-  height: 80px;
+  /* width: 453px;
+  height: 80px; */
   margin-left: 0;
   
 }
@@ -1056,6 +1070,7 @@ width: calc((100% - 48px) / 3);
 .email-form {
   display: flex;
   flex-direction: row;
+}
 }
 
 
@@ -1072,7 +1087,9 @@ width: calc((100% - 48px) / 3);
 }
 
 .footer-logotype-container {
+  align-items: start;
   margin-right: 120px;
+  margin-bottom: 0;
 }
 
 .footer-part-logo {
@@ -1107,6 +1124,8 @@ width: calc((100% - 48px) / 3);
   max-width: 264px;
 }
 .footer-link-container {
+  align-items: start;
+  margin-bottom: 0;
 }
 .footer-link-title {
   font-weight: 500;
@@ -1146,9 +1165,10 @@ width: calc((100% - 48px) / 3);
 }
 
 .subcribe-container {
-  justify-content: center;
+  display: block;
+ justify-content: center;
   align-items: baseline;
-  flex-direction: row;
+  flex-direction: column;
   width: 453px;
   height: 80px;
   margin: 0 auto;
@@ -1169,6 +1189,7 @@ width: calc((100% - 48px) / 3);
 
 .email-form {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 24px;
 }
@@ -1218,7 +1239,7 @@ width: calc((100% - 48px) / 3);
 }
 
 }
-}
+
 
 /*======================================*/
 
